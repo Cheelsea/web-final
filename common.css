@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'canger';
+    src: url('./assets/canger.ttf');
+}
+
+@font-face {
+    font-family: 'pingying';
+    src: url('./assets/pingying.ttf');
+}
+
+@font-face {
+    font-family: 'righteous';
+    src: url('./assets/righteous.ttf');
+}
+
+body {
+    font-family: 'canger';
+}
+
+.br_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #fff5e9;
+}
+.brimage {
+    width: 50%;
+    height: 100%;
+}
+.outter_text {
+    background-color: rgba(231, 76, 60,1.0);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    line-height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}

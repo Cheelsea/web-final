@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment: One day in Ningbo</title>
+    <link rel="Shortcut Icon" href="./assets/website_icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./menu.css">
+    <script type="text/javascript" src="./menu.js"></script>
+</head>
+<body>
+    <div class="leftmenu" onmouseout="hideMenu()" onmouseover="showMenu()">
+        <div id="menuContent" style="width: 0;" class="content-hide">
+            <div class="leftmenu_item" onclick="gotoHome()">Home</div>
+            <div class="leftmenu_item" onclick="gotoDelicious()">Delicious</div>
+            <div class="leftmenu_item" onclick="gotoAmusing()">Amusing</div>
+            <div class="leftmenu_item" onclick="gotoContact()">Contact Me</div>
+        </div>
+        <div class="menuicon"></div>
+    </div>
+    <div class="container" id="top">
+        <div class="header">
+            <div class="topbanner">
+                How to have a nice day in Ningbo? <a href="#video" class="topbanner_a">Follow me</a>
+            </div>
+        </div>
+        <div class="video_container" id="video">
+            <div class="video_title">宁波一日游</div>
+            <div class="video_title">OneDay Trip in Ningbo</div>
+            <div class="video_container_div">
+                <iframe 
+                    src="https://player.bilibili.com/player.html?aid=542910536&bvid=BV1ki4y1V7r6&cid=259676279&page=1"
+                    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+                    scrolling="no"
+                    border="0"
+                    frameborder="no"
+                    framespacing="0"
+                    allowfullscreen="true">
+                </iframe>
+            </div>
+        </div>
+        <div class="br_container">
+            <img src="./assets/br.png" alt="" class="brimage">
+        </div>
+        <div class="photo_gallary" id="gallary">
+            <div class="photo_gallary_fixed">
+                <div class="photo_item_1 photo_item">
+                    <div class="photo_box">
+                        <img src="./assets/photo_gallary_1.jpg" alt="" class="photo">
+                    </div>
+                </div>
+                <div class="photo_item_2 photo_item">
+                    <div class="photo_box">
+                        <img src="./assets/photo_gallary_2.jpg" alt="" class="photo">
+                    </div>
+                </div>
+                <div class="photo_item_3 photo_item">
+                    <div class="photo_box">
+                        <img src="./assets/photo_gallary_3.jpg" alt="" class="photo">
+                    </div>
+                </div>
+                <div class="photo_item_4 photo_item">
+                    <div class="photo_box">
+                        <img src="./assets/photo_gallary_4.jpg" alt="" class="photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a class="totop" href="#top"></a>
+            <div class="comment">
+                <input type="text" placeholder="Leave your precious comment" class="input">
+                <button class="button" onclick="alert('Thanks for your comment!')">Submit</button>
+            </div>
+            <div class="copyright">Designed and Coded by XXX @2020</div>
+            <div class="subscribe"><span onclick="gotoContact()">subscribe me</span> on social media</div>
+        </div>
+    </div>
+</body>
+</html>
